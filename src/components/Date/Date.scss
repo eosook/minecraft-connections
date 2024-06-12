@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "minecraftFont";
+    src: url(../../assets/fonts/MinecraftRegular-Bmg3.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "minecraftFont";
+    src: url(../../assets/fonts/Minecraftia-Regular.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@mixin font($weight, $color, $size){
+    font-family: minecraftFont;
+    font-weight: $weight;
+    color: $color;
+    font-size: $size;
+}
+
+.date{
+    @include font(400, white, 1.5em);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__date{
+        padding: 2rem 0;
+    }
+}

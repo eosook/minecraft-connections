@@ -1,0 +1,13 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardList{
+    display: flex;
+    max-width: 450px;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}

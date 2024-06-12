@@ -1,4 +1,25 @@
-@use '../../assets/partials/font' as *;
+// @use '../../assets/partials/font' as *;
+
+@font-face {
+    font-family: "minecraftFont";
+    src: url(../../assets/fonts/MinecraftRegular-Bmg3.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "minecraftFont";
+    src: url(../../assets/fonts/Minecraftia-Regular.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@mixin font($weight, $color, $size){
+    font-family: minecraftFont;
+    font-weight: $weight;
+    color: $color;
+    font-size: $size;
+}
 
 .header{
     display: flex;
@@ -6,6 +27,7 @@
     border-bottom: 2px solid black;
 
     &__header{
-        @include font(400, red, 6rem);
+        @include font(600, white, 2.5rem);
+        text-shadow: 2px 2px black;
     }
 }

@@ -1,0 +1,77 @@
+[
+{
+  "id": "01",
+  "ingredient": "stick",
+  "image": "../../api/public/images/stick.png",
+  "connection": "campfire"
+},
+{
+  "id": "02",
+  "ingredient": "coal",
+  "image": "../../api/public/images/coal.png",
+  "connection": "campfire"
+},
+{
+  "id": "03",
+  "ingredient": "wood",
+  "image": "../../api/public/images/wood.png",
+  "connection": "campfire"
+},
+
+{
+  "id": "04",
+  "ingredient": "pumpkin",
+  "image": "../../api/public/images/pumpkin.png",
+  "connection": "pumpkin pie"
+},
+{
+  "id": "05",
+  "ingredient": "egg",
+  "image": "../../api/public/images/egg.png",
+  "connection": "pumpkin pie"
+},
+{
+  "id": "06",
+  "ingredient": "sugar",
+  "image": "../../api/public/images/sugar.png",
+  "connection": "pumpkin pie"
+},
+
+{
+  "id": "07",
+  "ingredient": "book",
+  "image": "../../api/public/images/book.png",
+  "connection": "book and quill"
+},
+{
+  "id": "08",
+  "ingredient": "feather",
+  "image": "../../api/public/images/feather.png",
+  "connection": "book and quill"
+},
+{
+  "id": "09",
+  "ingredient": "ink",
+  "image": "../../api/public/images/ink.png",
+  "connection": "book and quill"
+},
+
+{
+  "id": "10",
+  "ingredient": "cobblestone",
+  "image": "../../api/public/images/cobblestone.png",
+  "connection": "observer"
+},
+{
+  "id": "11",
+  "ingredient": "redstone",
+  "image": "../../api/public/images/redstone.png",
+  "connection": "observer"
+},
+{
+  "id": "12",
+  "ingredient": "nether quartz",
+  "image": "../../api/public/images/nether-quartz.png",
+  "connection": "observer"
+}
+]

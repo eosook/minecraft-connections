@@ -6,12 +6,18 @@
 
 @font-face {
     font-family: "minecraftFont";
-    src: url(../fonts/AvenirNextLTPro-Bold.otf) format('opentype');
+    src: url(../fonts/Minecraftia-Regular.ttf) format('truetype');
     font-weight: 600;
 }
 
+@font-face{
+    font-family: "Avenir";
+    src: url(../fonts/AvenirNextLTPro-Bold.otf) format("opentype");
+    font-weight: 700
+}
+
 @mixin font($weight, $color, $size){
-    font-family: minecraftFont;
+    font-family: Avenir;
     font-weight: $weight;
     color: $color;
     font-size: $size;
