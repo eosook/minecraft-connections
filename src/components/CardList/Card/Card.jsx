@@ -1,7 +1,7 @@
 import './Card.scss'
 import { useState, useEffect } from 'react';
 
-function Card({ingredient: { ingredient, image, id, connection }, onClick, selected, isConnected, clear, setIsConnected}){
+function Card({ingredient: { ingredient, image, id, connection, connectionImage }, onClick, selected, isConnected, clear, setIsConnected}){
     const [isSelected, setIsSelected] = useState(null);
     const [isCorrect, setIsCorrect] = useState(false);
     
@@ -34,7 +34,7 @@ function Card({ingredient: { ingredient, image, id, connection }, onClick, selec
     
     return (
         <div className={` ${isSelected ? 'card--selected card' : 'card'} ${isCorrect ? 'card--connected card' : 'card'}`} onClick={() => {
-            onClick({ingredient, connection})
+            onClick({ingredient, connection, connectionImage})
         }}>
             <img className="card__image" src={image}/>
         </div>

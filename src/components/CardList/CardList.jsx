@@ -9,6 +9,7 @@ function CardList() {
   const [ingredientsList, setIngredientsList] = useState([]);
   const [selected, setSelected] = useState([]);
   const [isConnected, setIsConnected] = useState(false);
+  const [connectedImages, setConnectedImages] = useState([]);
 
   const BASE_URL = "http://localhost:5050";
 
@@ -22,7 +23,7 @@ function CardList() {
 
   useEffect(() => {
     if (isConnected){
-        window.alert(`Good Job ${selected[0].connection}`)
+        setConnectedImages((prev) => ([...prev, {image: selected[0].connectionImage, name:selected[0].connection}]))
     }
   }, [isConnected]);
 
@@ -69,6 +70,18 @@ function CardList() {
           );
         })}
         {/* <Connection connections={connections}/> */}
+      </div>
+      <div className="connectedImages">
+        {
+            connectedImages.map((image)=> {
+                return (
+                    < div className="image-wrapper">
+                    <img className="connectedImages__image" src={image.image} />
+                    <p className="connectedImages__text">{image.name}</p>
+                </div>
+                )
+            })
+        }
       </div>
       <Buttons clear={clear} onClick={submitHandler} selected={selected}/>
     </main>

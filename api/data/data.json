@@ -3,75 +3,87 @@
   "id": "01",
   "ingredient": "stick",
   "image": "../../api/public/images/stick.png",
-  "connection": "campfire"
+  "connection": "campfire",
+  "connectionImage": "../../api/public/images/campfire.png"
 },
 {
   "id": "02",
   "ingredient": "coal",
   "image": "../../api/public/images/coal.png",
-  "connection": "campfire"
+  "connection": "campfire",
+  "connectionImage": "../../api/public/images/campfire.png"
 },
 {
   "id": "03",
   "ingredient": "wood",
   "image": "../../api/public/images/wood.png",
-  "connection": "campfire"
+  "connection": "campfire",
+  "connectionImage": "../../api/public/images/campfire.png"
 },
 
 {
   "id": "04",
   "ingredient": "pumpkin",
   "image": "../../api/public/images/pumpkin.png",
-  "connection": "pumpkin pie"
+  "connection": "pumpkin pie",
+  "connectionImage": "../../api/public/images/pumpkin-pie.png"
 },
 {
   "id": "05",
   "ingredient": "egg",
   "image": "../../api/public/images/egg.png",
-  "connection": "pumpkin pie"
+  "connection": "pumpkin pie",
+  "connectionImage": "../../api/public/images/pumpkin-pie.png"
 },
 {
   "id": "06",
   "ingredient": "sugar",
   "image": "../../api/public/images/sugar.png",
-  "connection": "pumpkin pie"
+  "connection": "pumpkin pie",
+  "connectionImage": "../../api/public/images/pumpkin-pie.png"
 },
 
 {
   "id": "07",
   "ingredient": "book",
   "image": "../../api/public/images/book.png",
-  "connection": "book and quill"
+  "connection": "book and quill",
+  "connectionImage": "../../api/public/images/book-and-quill.png"
 },
 {
   "id": "08",
   "ingredient": "feather",
   "image": "../../api/public/images/feather.png",
-  "connection": "book and quill"
+  "connection": "book and quill",
+  "connectionImage": "../../api/public/images/book-and-quill.png"
 },
 {
   "id": "09",
   "ingredient": "ink",
   "image": "../../api/public/images/ink.png",
-  "connection": "book and quill"
+  "connection": "book and quill",
+  "connectionImage": "../../api/public/images/book-and-quill.png"
 },
 
 {
   "id": "10",
   "ingredient": "cobblestone",
   "image": "../../api/public/images/cobblestone.png",
-  "connection": "observer"
+  "connection": "observer",
+  "connectionImage": "../../api/public/images/observer.png"
 },
 {
   "id": "11",
   "ingredient": "redstone",
   "image": "../../api/public/images/redstone.png",
-  "connection": "observer"
+  "connection": "observer",
+  "connectionImage": "../../api/public/images/observer.png"
 },
 {
   "id": "12",
   "ingredient": "nether quartz",
   "image": "../../api/public/images/nether-quartz.png",
-  "connection": "observer"
+  "connection": "observer",
+  "connectionImage": "../../api/public/images/observer.png"
 }
 ]

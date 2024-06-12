@@ -21,11 +21,12 @@
 
 .buttons{
     display: flex;
-    justify-content: space-between;
-    width: 400px;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
 
     button{
-        @include font(400, white, 1rem);
+        @include font(400, white, 1.25rem);
         padding: 1rem 3rem;
         background-image: url("../../../assets/images/stone.png");
         background-color: none;
@@ -37,6 +38,11 @@
         cursor: pointer;
         max-width: 150px;
         width: 100%;
+        border-bottom: 2px solid #353535;
+        border-right: 2px solid #353535;
+        border-left: 2px solid #FFFFFF;
+        border-top: 2px solid #FFFFFF;
+
         &:hover {
             box-shadow: 4px 4px #000000;
         }
