@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "minecraftFont";
+    src: url(../fonts/MinecraftRegular-Bmg3.otf) format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "minecraftFont";
+    src: url(../fonts/AvenirNextLTPro-Bold.otf) format('opentype');
+    font-weight: 600;
+}
+
+@mixin font($weight, $color, $size){
+    font-family: minecraftFont;
+    font-weight: $weight;
+    color: $color;
+    font-size: $size;
+}

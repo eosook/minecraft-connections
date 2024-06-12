@@ -1,0 +1,11 @@
+@use '../../assets/partials/font' as *;
+
+.header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+
+    &__header{
+        @include font(400, red, 6rem);
+    }
+}

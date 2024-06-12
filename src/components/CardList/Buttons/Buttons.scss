@@ -1,0 +1,10 @@
+.buttons{
+    &__button{
+        padding: 1rem 2rem;
+        background-image: url("../../../assets/images/stone.png");
+        background-color: none;
+        background-size: 2rem 4rem;
+        color: white;
+        text-shadow: 1px 1px #000000;
+    }
+}
